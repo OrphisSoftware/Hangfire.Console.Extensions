@@ -37,8 +37,8 @@
 
   <ItemGroup>
     <PackageReference Include="IdentityStream.Hangfire.Console" Version="2.0.0" />
-    <PackageReference Include="Microsoft.Extensions.Logging" Version="7.0.0" />
-    <PackageReference Include="Microsoft.Extensions.Logging.Configuration" Version="7.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="8.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Configuration" Version="8.0.0" />
   </ItemGroup>
 
   <ItemGroup>

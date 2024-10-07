@@ -48,7 +48,7 @@
 
   <ItemGroup>
     <PackageReference Include="IdentityStream.Hangfire.Console" Version="2.0.0" />
-    <PackageReference Include="Serilog" Version="3.1.1" />
+    <PackageReference Include="Serilog" Version="4.0.2" />
   </ItemGroup>
 
   <ItemGroup>
