@@ -29,24 +29,3 @@ Just take the `IJobCancellationToken` as a constructor parameter to get a hold o
 
 ## Schedule jobs
 Contains a extension method for `AddOrUpdateManuallyTriggered` if you have a job that should only be run manually.
-
-# Hangfire.Console.Extensions.Serilog
-[![NuGet version](https://badge.fury.io/nu/Hangfire.Console.Extensions.Serilog.svg)](https://badge.fury.io/nu/Hangfire.Console.Extensions.Serilog)
-
-# Usage with Serilog.Settings.Configuration
-
-Add `WithHangfireContext` to `Enrich` and add `Hangfire` as a WriteTo target
-Example:
-```json
-"Serilog": {
-  "Enrich": [ "WithHangfireContext" ],
-  "WriteTo": [
-    {
-      "Name": "Hangfire",
-      "Args": {
-        "restrictedToMinimumLevel": "Information"
-      }
-    }
-  ]
-}
-```

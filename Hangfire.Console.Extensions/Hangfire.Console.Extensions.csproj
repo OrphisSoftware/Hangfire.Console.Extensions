@@ -3,14 +3,14 @@
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
     <Company />
-    <Authors>Peter Andersson</Authors>
-    <PackageLicenseExpression></PackageLicenseExpression>
+    <Authors>Orphis AG</Authors>
+		<PackageId>Orphis.Hangfire.Console.Extensions</PackageId>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <Description>Makes it easier to use Hangfire.Console with .net core dependency injection</Description>
-    <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
-    <PackageProjectUrl>https://github.com/AnderssonPeter/Hangfire.Console.Extensions</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/AnderssonPeter/Hangfire.Console.Extensions</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/OrphisSoftware/Hangfire.Console.Extensions</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/OrphisSoftware/Hangfire.Console.Extensions</RepositoryUrl>
     <RepositoryType>github</RepositoryType>
     <PackageTags>Hangfire Hangfire.Console</PackageTags>
     <Version>3.0.0</Version>
@@ -42,13 +42,6 @@
     <PackageReference Include="Hangfire.Core" Version="1.8.14" />
     <PackageReference Include="Microsoft.Extensions.Logging" Version="8.0.0" />
     <PackageReference Include="Microsoft.Extensions.Logging.Configuration" Version="8.0.0" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Include="..\LICENSE.md">
-      <Pack>True</Pack>
-      <PackagePath></PackagePath>
-    </None>
   </ItemGroup>
 
 </Project>
