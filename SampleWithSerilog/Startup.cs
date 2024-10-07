@@ -68,7 +68,6 @@ namespace SampleWithSerilog
 
             jobManager.Start<SampleJob>(x => x.RunAsync());
             recurringJobManager.AddOrUpdate<ContinuationJob>("test", job => job.RunAsync(), "0 0 * ? * *");
-            recurringJobManager.AddOrUpdateManuallyTriggered<ResultJob>(job => job.RunAsync());
         }
     }
 }
